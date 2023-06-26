@@ -6937,6 +6937,7 @@ input, select, textarea {
 
 	 .image-scroll1{
 		object-fit:cover;
+		margin:1%;
 		display:inline-block;
 		position: relative;
 		width: 22.5rem;
