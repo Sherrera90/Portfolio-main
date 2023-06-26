@@ -6967,6 +6967,19 @@ input, select, textarea {
 		color:red;
 		font-size:13px;
 		}
+
+		.icons .fa-github{
+			color:black;
+		}
+
+		.html5{
+			color:#e8ddd0;
+			font-size:10px;
+		}
+		.html5 a{
+			text-decoration: none;
+			color:#e8ddd0;
+		}
 	
 /*@media screen and (max-width:991px){
 	.dawgs{
