@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>Resume|Stephanie Herrera</title>
     <link rel="stylesheet" href="resume.css">
     <script src="https://kit.fontawesome.com/617a156481.js" crossorigin="anonymous"></script>
@@ -166,6 +166,32 @@
     cursor:pointer;
     color:#EA047E;
  }
+
+ /*Media Queries */ 
+ @media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainContainer,
+  .part2 {
+    width: 100%;
+  }
+
+  .info {
+    margin: 20px 0;
+  }
+
+  .top {
+    margin-top: 0;
+  }
+
+  .mainContainer,
+  .part2 {
+    padding: 10px;
+  }
+}
  </style>
 <body>
     <div class="mainContainer">
